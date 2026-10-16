@@ -1,46 +1,53 @@
 # Adivinhador de Regras
 
-A Python game in which you must discover a hidden mathematical rule by guessing numbers and analyzing the feedback provided by the game.
+A Python game developed as part of **MC102 — Algorithms and Computer Programming**, during the first semester of the Computer Science undergraduate program at the **University of Campinas (UNICAMP), Brazil**.
 
-Built with **Python** and **Pygame**, the project features a graphical interface, manual gameplay, and an automatic player that attempts to identify the secret rule.
+The project was developed collaboratively by two Computer Science students as part of the course's programming assignments.
 
-## Features
+## About the Project
 
-- **Interactive graphical interface** built with Pygame.
-- **Three types of hidden rules:**
-  - **Modulo (`mod`):** numbers satisfying `n % k == r`.
-  - **Perfect powers (`pot`):** numbers that are perfect powers of a specified order `p`.
-  - **Intervals (`int`):** numbers between `a` and `b`, inclusive.
-- **Feedback system:** incorrect number guesses indicate whether a valid number is closer in the higher or lower direction.
-- **Automatic player:** run the game using a strategy implemented in `player.py`.
-- **Pause and restart controls** for automatic gameplay.
+Adivinhador de Regras is a game built with Python and Pygame in which the player interacts with numbers and mathematical rules. The project was designed to practice programming fundamentals through a practical implementation.
 
-## Requirements
+The game includes different types of rules, such as:
+
+- **Modulo (`mod`)** — operations involving the remainder of a division.
+- **Power (`pot`)** — operations involving exponentiation.
+- **Integer (`int`)** — operations involving integer values.
+
+## Technologies
+
+- **Python** — game logic and implementation.
+- **Pygame** — graphics and user interaction.
+- **Git and GitHub** — version control and project collaboration.
+
+## Getting Started
+
+### Prerequisites
 
 - Python 3
-- Pygame
+- pip
 
-## Installation
+### Installation
 
-Clone the repository:
+1. Clone the repository:
 
-```bash
-git clone https://github.com/nicolaspavanetti/adivinhador-de-regras.git
-cd adivinhador-de-regras
-```
+   ```bash
+   git clone https://github.com/nicolaspavanetti/adivinhador-de-regras
+   cd adivinhador-de-regras
+   ```
 
-Create and activate a virtual environment:
+2. Create and activate a virtual environment:
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
 
-Install the dependencies:
+3. Install the dependencies:
 
-```bash
-python -m pip install -r requirements.txt
-```
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
 
 ## How to Play
 
@@ -96,79 +103,6 @@ adivinhador-de-regras/
 - **`requirements.txt`** — Python dependencies.
 - **`.gitignore`** — files and directories excluded from Git tracking.
 - **`README.md`** — project documentation.
-
-## Learning Goals
-
-This project explores Python programming, algorithmic reasoning, and the design of a game-playing strategy based on partial information. It also provides an opportunity to practice debugging, modular code organization, and version control with Git.
-
-## License
-
-No license has been specified yet.
-	
-# Adivinhador de Regras
-
-A Python game developed as part of **MC102 — Algorithms and Computer Programming**, during the first semester of the Computer Science undergraduate program at the **University of Campinas (UNICAMP), Brazil**.
-
-The project was developed collaboratively by two Computer Science students as part of the course's programming assignments.
-
-## About the Project
-
-Adivinhador de Regras is a game built with Python and Pygame in which the player interacts with numbers and mathematical rules. The project was designed to practice programming fundamentals through a practical implementation.
-
-The game includes different types of rules, such as:
-
-- **Modulo (`mod`)** — operations involving the remainder of a division.
-- **Power (`pot`)** — operations involving exponentiation.
-- **Integer (`int`)** — operations involving integer values.
-
-## Technologies
-
-- **Python** — game logic and implementation.
-- **Pygame** — graphics and user interaction.
-- **Git and GitHub** — version control and project collaboration.
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3
-- pip
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/nicolaspavanetti/adivinhador-de-regras
-   cd adivinhador-de-regras
-   ```
-
-2. Create and activate a virtual environment:
-
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-
-3. Install the dependencies:
-
-   ```bash
-   python -m pip install -r requirements.txt
-   ```
-
-### Running the Game
-
-Run the game with:
-
-```bash
-python game.py
-```
-
-To run the game in automatic mode, if supported by your version:
-
-```bash
-python game.py --auto
-```
 
 ## Academic Context
 
