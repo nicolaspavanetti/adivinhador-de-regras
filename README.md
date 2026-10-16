@@ -25,7 +25,7 @@ Built with **Python** and **Pygame**, the project features a graphical interface
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/adivinhador-de-regras.git
+git clone https://github.com/nicolaspavanetti/adivinhador-de-regras.git
 cd adivinhador-de-regras
 ```
 
@@ -105,3 +105,92 @@ This project explores Python programming, algorithmic reasoning, and the design 
 
 No license has been specified yet.
 	
+# Adivinhador de Regras
+
+A Python game developed as part of **MC102 — Algorithms and Computer Programming**, during the first semester of the Computer Science undergraduate program at the **University of Campinas (UNICAMP), Brazil**.
+
+The project was developed collaboratively by two Computer Science students as part of the course's programming assignments.
+
+## About the Project
+
+Adivinhador de Regras is a game built with Python and Pygame in which the player interacts with numbers and mathematical rules. The project was designed to practice programming fundamentals through a practical implementation.
+
+The game includes different types of rules, such as:
+
+- **Modulo (`mod`)** — operations involving the remainder of a division.
+- **Power (`pot`)** — operations involving exponentiation.
+- **Integer (`int`)** — operations involving integer values.
+
+## Technologies
+
+- **Python** — game logic and implementation.
+- **Pygame** — graphics and user interaction.
+- **Git and GitHub** — version control and project collaboration.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3
+- pip
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/nicolaspavanetti/adivinhador-de-regras
+   cd adivinhador-de-regras
+   ```
+
+2. Create and activate a virtual environment:
+
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
+### Running the Game
+
+Run the game with:
+
+```bash
+python game.py
+```
+
+To run the game in automatic mode, if supported by your version:
+
+```bash
+python game.py --auto
+```
+
+## Academic Context
+
+This project was developed for **MC102 — Algorithms and Computer Programming**, a course taken during the first semester of the Computer Science program at UNICAMP.
+
+The assignment provided an opportunity to apply programming concepts to a complete project, including problem-solving, algorithm implementation, and the organization of code across multiple files.
+
+## Authors
+
+- **Nicolas Pavanetti** — [GitHub](https://github.com/nicolaspavanetti)
+- **Daniel Dorigan Campos** — [GitHub](https://github.com/danieldorigancc)
+
+## Learning Objectives
+
+Through this project, we practiced:
+
+- Algorithm design and problem-solving.
+- Fundamental programming concepts.
+- Organizing code into separate modules.
+- Developing a game with Python and Pygame.
+- Collaborative software development.
+
+---
+
+*Developed as an academic project for MC102 at the University of Campinas (UNICAMP).*
